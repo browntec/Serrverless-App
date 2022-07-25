@@ -1,14 +1,21 @@
 # Getting Started
 
 **Serverless TODO**
-In this project I develop and deploy a simple "TODO" application using AWS Lambda and Serverless framework. This application will allow users to create/remove/update/get TODO items. Each TODO item contains the following fields:
+In this project I develop and deploy a simple "TODO" application using AWS Lambda and Serverless framework. This application will allow users to 
+create/remove/update/get TODO items. Each TODO item contains the following fields:
 
 todoId (string) - a unique id for an item
+
 createdAt (string) - date and time when an item was created
+
 name (string) - name of a TODO item (e.g. "Change a light bulb")
+
 dueDate (string) - date and time by which an item should be completed
+
 done (boolean) - true if an item was completed, false otherwise
+
 attachmentUrl (string) (optional) - a URL pointing to an image attached to a TODO item
+
 Functions implemented
 To implement this project you need to implement the following functions and configure them in the serverless.yml file:
 
