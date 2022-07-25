@@ -1,6 +1,7 @@
 # Getting Started
 
 **Serverless TODO**
+
 In this project I develop and deploy a simple "TODO" application using AWS Lambda and Serverless framework. This application will allow users to 
 create/remove/update/get TODO items. 
 
